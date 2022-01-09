@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10958" started-at="2022-01-09T10:12:14Z" finished-at="2022-01-09T10:12:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10958" started-at="2022-01-09T10:12:14Z" finished-at="2022-01-09T10:12:25Z">
+      <class name="pack2.AutoItTest">
+        <test-method status="FAIL" signature="testUpload()[pri:0, instance:pack2.AutoItTest@41fbdac4]" name="testUpload" duration-ms="10933" started-at="2022-01-09T10:12:14Z" finished-at="2022-01-09T10:12:25Z">
+          <exception class="java.lang.UnsatisfiedLinkError">
+            <message>
+              <![CDATA[no jacob-1.14.3-x64 in java.library.path]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsatisfiedLinkError: no jacob-1.14.3-x64 in java.library.path
+at java.lang.ClassLoader.loadLibrary(Unknown Source)
+at java.lang.Runtime.loadLibrary0(Unknown Source)
+at java.lang.System.loadLibrary(Unknown Source)
+at com.jacob.com.LibraryLoader.loadJacobLibrary(LibraryLoader.java:184)
+at com.jacob.com.JacobObject.<clinit>(JacobObject.java:108)
+at autoitx4java.AutoItX.<init>(AutoItX.java:231)
+at pack2.AutoItTest.testUpload(AutoItTest.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.UnsatisfiedLinkError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpload -->
+      </class> <!-- pack2.AutoItTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
